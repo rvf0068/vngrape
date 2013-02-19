@@ -1,0 +1,4 @@
+This is a very simple GAP package, with the purpose of complementing
+GRAPE. It defines several functions, similar to those defined in
+GRAPE, accepting input and returning output using VertexNames of the
+graphs involved.
