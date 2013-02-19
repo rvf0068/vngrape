@@ -1,0 +1,1 @@
+ReadPackage( "vngrape", "lib/vngrape.gi" );
