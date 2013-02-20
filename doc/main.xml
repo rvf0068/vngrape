@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Reading PKGVERSIONDATA chunk from the PackageInfo.g file -->
+
+<!DOCTYPE Book SYSTEM "gapdoc.dtd"
+   [ <!ENTITY vngrape "<Package>vngrape</Package>">
+<#Include Label="PKGVERSIONDATA">
+   ]>
+
+<!-- Documentation of the vngrape package. -->
+
+<Book Name="vngrape"> 
+
+<TitlePage>
+  <Title>&vngrape;</Title>
+  <Subtitle>Vertex Name Centered additions to <Package>GRAPE</Package></Subtitle>
+  <Version>Version &VERSION;</Version>
+  <Date>&RELEASEDATE;</Date>
+  <Author> Rafael Villarroel
+    <Email>rvf0068@gmail.com</Email>
+    <Homepage>http://rvfblog.wordpress.com</Homepage>
+  </Author>
+    <Copyright> 
+    <Index>License</Index>
+    &copyright; 2013 by Rafael Villarroel<P/>
+    &vngrape; package is free software; 
+    you can redistribute it and/or modify it under the terms of the 
+    <URL Text="GNU General Public License">http://www.fsf.org/licenses/gpl.html</URL> 
+    as published by the Free Software Foundation; either version 2 of the License, 
+    or (at your option) any later version.
+  </Copyright>
+  <Acknowledgements>
+    Big thanks to the author of the package <Package>GRAPE</Package>.
+  </Acknowledgements>
+</TitlePage>
+
+<TableOfContents/>
+
+<Body>
+
+<#Include SYSTEM "functions.xml">
+
+</Body>
+
+<TheIndex/>
+
+</Book>
+
+<!-- ==================================================================== -->
+

@@ -1,3 +1,17 @@
+#############################################################################
+##
+##
+#W  vngrape.gi                  vngrape Package             Rafael Villarroel
+##
+##  Installation file for functions of the vngrape package.
+##
+#Y  Copyright (C) 2013 Rafael Villarroel
+##
+
+#############################################################################
+##
+#F  VNI2N( <g>, <x> ) . . . . . . . . . . . . convert indices to vertex names
+##
 InstallGlobalFunction( VNI2N , function( g,x )
     if x in Vertices(g) then
         return VertexName(g,x);
@@ -8,6 +22,10 @@ InstallGlobalFunction( VNI2N , function( g,x )
     fi;
 end );    
 
+#############################################################################
+##
+#F  VNN2I( <g>, <x> ) . . . . . . . . . . . . convert names to vertex indices
+##
 InstallGlobalFunction( VNN2I , function( g,x )
     if x in VertexNames(g) then
         return Position(VertexNames(g),x);
@@ -17,3 +35,5 @@ InstallGlobalFunction( VNN2I , function( g,x )
         Print("Not a list (or list of lists...) of names\n");
     fi;
 end );
+
+#E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

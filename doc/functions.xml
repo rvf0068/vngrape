@@ -1,0 +1,25 @@
+<Chapter Label="vngrape">
+<Heading>The vngrape Package</Heading>
+
+<Index>vngrape package</Index>
+This chapter  describes  the  &GAP;  package  &vngrape;. It builds on
+the package <Package>GRAPE</Package>.
+<P/>
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<Section Label="Functions">
+<Heading>Functions</Heading>
+
+The following functions are available:
+
+<#Include Label="VNI2N">
+
+<#Include Label="VNN2I">
+
+</Section>
+</Chapter>
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- %% -->
+<!-- %E -->
+
