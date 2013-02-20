@@ -12,17 +12,17 @@
                                 19 February 2013
   
   
-                               Rafael Villarroel
+                            Rafael Villarroel-Flores
   
   
   
-  Rafael Villarroel
+  Rafael Villarroel-Flores
       Email:    [7Xmailto:rvf0068@gmail.com[107X
       Homepage: [7Xhttp://rvfblog.wordpress.com[107X
   
   -------------------------------------------------------
   [1XCopyright[101X
-  [33X[0;0Y© 2013 by Rafael Villarroel[133X
+  [33X[0;0Y© 2013 by Rafael Villarroel-Flores[133X
   
   [33X[0;0Y[5Xvngrape[105X  package  is free software; you can redistribute it and/or modify it
   under     the     terms     of    the    GNU    General    Public    License
@@ -33,7 +33,7 @@
   
   -------------------------------------------------------
   [1XAcknowledgements[101X
-  [33X[0;0YBig thanks to the author of the package [5XGRAPE[105X.[133X
+  [33X[0;0YBig thanks to Leonard H. Soicher, author of the package [5XGRAPE[105X.[133X
   
   
   -------------------------------------------------------

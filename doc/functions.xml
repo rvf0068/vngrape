@@ -1,7 +1,7 @@
 <Chapter Label="vngrape">
+
 <Heading>The vngrape Package</Heading>
 
-<Index>vngrape package</Index>
 This chapter  describes  the  &GAP;  package  &vngrape;. It builds on
 the package <Package>GRAPE</Package>.
 <P/>

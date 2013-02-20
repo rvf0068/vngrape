@@ -2,8 +2,6 @@
   
   [1XIndex[101X
   
-  License  .-1
-  vngrape package  1.
   [2XVNI2N[102X  1.1-1
   [2XVNN2I[102X  1.1-2
   
