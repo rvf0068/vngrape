@@ -52,7 +52,7 @@ end );
 #F  VNAdjacency( <g>, <x> ) . returns the neighbors of x (by name)
 ##
 InstallGlobalFunction( VNAdjacency, function( g,x )
-    return VNI2Ns(g,Adjacency(g,VNN2I(g,i)));
+    return VNI2N(g,Adjacency(g,VNN2I(g,x)));
 end );
 
 #E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here
