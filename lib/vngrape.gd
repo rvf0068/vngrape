@@ -55,4 +55,20 @@ DeclareGlobalFunction( "VNN2I" );
 ##  <#/GAPDoc>
 DeclareGlobalFunction( "VNAddedEdgeOrbit" );
 
+#############################################################################
+##
+#F  VNAdjacency( <g>, <x> ) . returns the neighbors of x (by name)
+##
+##  <#GAPDoc Label="VNAdjacency">
+##  <ManSection>
+##  <Func Name="VNAdjacency" Arg="graph, vertex_name"/>
+##
+##  <Description>
+##  Function that returns the vertex names of neighbors of x in a graph g.
+##  x must be a vertex of g given by its name.
+##  </Description>
+##  </ManSection>
+##  <#/GAPDoc>
+DeclareGlobalFunction( "VNAdjacency" );
+
 #E  vngrape.gd  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

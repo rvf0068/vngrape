@@ -47,5 +47,12 @@ InstallGlobalFunction( VNAddedEdgeOrbit , function( g,e )
     return h;
 end );
 
+#############################################################################
+##
+#F  VNAdjacency( <g>, <x> ) . returns the neighbors of x (by name)
+##
+InstallGlobalFunction( VNAdjacency, function( g,x )
+    return VNI2Ns(g,Adjacency(g,VNN2I(g,i)));
+end );
 
 #E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here
