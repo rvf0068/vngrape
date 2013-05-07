@@ -18,7 +18,7 @@
 ##  <Func Name="VNI2N" Arg="graph, index_or_list_of_indices"/>
 ##
 ##  <Description>
-##  converts all indices in x to vertex names
+##  Converts all indices in x to vertex names.
 ##  </Description>
 ##  </ManSection>
 ##  <#/GAPDoc>
@@ -33,10 +33,26 @@ DeclareGlobalFunction( "VNI2N" );
 ##  <Func Name="VNN2I" Arg="graph, name_or_list_of_names"/>
 ##
 ##  <Description>
-##  converts all names in x to its indices
+##  Converts all names in x to its indices.
 ##  </Description>
 ##  </ManSection>
 ##  <#/GAPDoc>
 DeclareGlobalFunction( "VNN2I" );
+
+#############################################################################
+##
+#F  VNAddedEdgeOrbit( <g>, <e> ) . add edge (by name vertices) orbit to graph
+##
+##  <#GAPDoc Label="VNAddedEdgeOrbit">
+##  <ManSection>
+##  <Func Name="VNAddedEdgeOrbit" Arg="graph, edge_by_names"/>
+##
+##  <Description>
+##  Function that returns the graph g but with the orbit of the edge e added. 
+##  The elements of e must be vertex names of g.
+##  </Description>
+##  </ManSection>
+##  <#/GAPDoc>
+DeclareGlobalFunction( "VNAddedEdgeOrbit" );
 
 #E  vngrape.gd  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

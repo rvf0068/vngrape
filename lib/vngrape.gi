@@ -36,4 +36,16 @@ InstallGlobalFunction( VNN2I , function( g,x )
     fi;
 end );
 
+#############################################################################
+##
+#F  VNAddEdgeOrbit( <g>, <e> ) . . add edge (by name vertices) orbit to graph
+##
+InstallGlobalFunction( VNAddedEdgeOrbit , function( g,e )
+    local h;
+    h := ShallowCopy(g);
+    AddEdgeOrbit(h,VNN2I(e));
+    return h;
+end );
+
+
 #E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

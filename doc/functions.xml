@@ -7,16 +7,31 @@ the package <Package>GRAPE</Package>.
 <P/>
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-<Section Label="Functions">
-<Heading>Functions</Heading>
-
-The following functions are available:
+<Section Label="Basic functions">
+<Heading>Basic functions</Heading>
 
 <#Include Label="VNI2N">
 
 <#Include Label="VNN2I">
 
 </Section>
+
+<Section Label="Copied from grape">
+<Heading>Copied from &grape;</Heading>
+
+These function are similar to functions in &grape;, but accepting
+input as vertex names instead of vertex indices. Not all functionality
+is available, though.
+
+<#Include Label="VNAddEdgeOrbit">
+
+</Section>
+
+
+
+
+
+
 </Chapter>
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
