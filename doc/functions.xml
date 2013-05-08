@@ -29,6 +29,8 @@ is available, though.
 
 <#Include Label="VNIsEdge">
 
+<#Include Label="VNUndirectedEdges">
+
 </Section>
 
 

@@ -63,4 +63,13 @@ InstallGlobalFunction( VNIsEdge, function(g,e)
     return IsEdge(g,[VNN2I(g,e[1]),VNN2I(g,e[2])]);
 end );
 
+#############################################################################
+##
+#F  VNUndirectedEdges( <g> ) . list edges (by vertex names) of a graph
+##
+InstallGlobalFunction( VNUndirectedEdges, function(g)
+    return List(UndirectedEdges(g), x -> VNI2N(g,x));
+end );
+
+
 #E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

@@ -87,4 +87,21 @@ DeclareGlobalFunction( "VNAdjacency" );
 ##  <#/GAPDoc>
 DeclareGlobalFunction( "VNIsEdge" );
 
+#############################################################################
+##
+#F  VNUndirectedEdges( <g> ) . list edges (by vertex names) of a graph
+##
+##  <#GAPDoc Label="VNUndirectedEdges">
+##  <ManSection>
+##  <Func Name="VNUndirectedEdges" Arg="graph"/>
+##
+##  <Description>
+##  Function that returns a list of the undirected edges of a graph g. 
+##  The edges are described by the names of its vertices.
+##  </Description>
+##  </ManSection>
+##  <#/GAPDoc>
+DeclareGlobalFunction( "VNUndirectedEdges" );
+
+
 #E  vngrape.gd  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here
