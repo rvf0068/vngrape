@@ -27,6 +27,8 @@ is available, though.
 
 <#Include Label="VNAdjacency">
 
+<#Include Label="VNIsEdge">
+
 </Section>
 
 

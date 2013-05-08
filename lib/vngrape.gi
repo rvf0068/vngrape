@@ -55,4 +55,12 @@ InstallGlobalFunction( VNAdjacency, function( g,x )
     return VNI2N(g,Adjacency(g,VNN2I(g,x)));
 end );
 
+#############################################################################
+##
+#F  VNIsEdge( <g>, <e> ) . is an edge (by name vertices) of the graph?
+##
+InstallGlobalFunction( VNIsEdge, function(g,e)
+    return IsEdge(g,[VNN2I(g,e[1]),VNN2I(g,e[2])]);
+end );
+
 #E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

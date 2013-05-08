@@ -71,4 +71,20 @@ DeclareGlobalFunction( "VNAddedEdgeOrbit" );
 ##  <#/GAPDoc>
 DeclareGlobalFunction( "VNAdjacency" );
 
+#############################################################################
+##
+#F  VNIsEdge( <g>, <e> ) . is an edge (by name vertices) of the graph?
+##
+##  <#GAPDoc Label="VNIsEdge">
+##  <ManSection>
+##  <Func Name="VNIsEdge" Arg="graph, edge_by_names"/>
+##
+##  <Description>
+##  Function that returns whether e (a list of two vertex names) is
+##  an edge of the graph g.
+##  </Description>
+##  </ManSection>
+##  <#/GAPDoc>
+DeclareGlobalFunction( "VNIsEdge" );
+
 #E  vngrape.gd  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here
