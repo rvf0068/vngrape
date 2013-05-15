@@ -35,6 +35,8 @@ is available, though.
 
 <#Include Label="VNDistanceSet">
 
+<#Include Label="VNInducedSubgraph">
+
 </Section>
 
 

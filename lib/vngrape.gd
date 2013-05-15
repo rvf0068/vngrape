@@ -137,7 +137,21 @@ DeclareGlobalFunction( "VNDistance" );
 ##  <#/GAPDoc>
 DeclareGlobalFunction( "VNDistanceSet" );
 
-
+#############################################################################
+##
+#F  VNInducedSubgraph( <g>, <l>) . subgraph induced by list of vertex names
+##
+##  <#GAPDoc Label="VNInducedSubgraph">
+##  <ManSection>
+##  <Func Name="VNInducedSubgraph" Arg="graph, list_of_names"/>
+##
+##  <Description>
+##  Function that returns the subgraph of g induced by the vertices
+##  whose name is in the list l
+##  </Description>
+##  </ManSection>
+##  <#/GAPDoc>
+DeclareGlobalFunction( "VNInducedSubgraph" );
 
 
 #E  vngrape.gd  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

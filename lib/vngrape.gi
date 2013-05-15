@@ -87,4 +87,12 @@ InstallGlobalFunction( VNDistanceSet, function(g,d,v)
     return VNI2N(g,DistanceSet(g,d,VNN2I(g,v)));
 end );
 
+#############################################################################
+##
+#F  VNInducedSubgraph( <g>, <l>) . subgraph induced by list of vertex names
+##
+InstallGlobalFunction( VNInducedSubgraph, function(g,l)
+    return InducedSubgraph(g,VNN2I(g,l));
+end );
+
 #E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here
