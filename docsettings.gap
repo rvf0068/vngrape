@@ -8,3 +8,5 @@ path := Directory("~/Dropbox/gaplocal/pkg/vngrape/doc");;
 main := "main.xml";;
 files := ["../lib/vngrape.gd", "../lib/vngrape.gi", "../PackageInfo.g"];;
 bookname := "vngrape";;
+
+g := EdgeGraph(CompleteGraph(SymmetricGroup(7)));
