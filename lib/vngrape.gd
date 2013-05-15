@@ -103,5 +103,22 @@ DeclareGlobalFunction( "VNIsEdge" );
 ##  <#/GAPDoc>
 DeclareGlobalFunction( "VNUndirectedEdges" );
 
+#############################################################################
+##
+#F  VNDistance( <g>, <x> , <y> ) . distances between vertices or vertex lists
+##
+##  <#GAPDoc Label="VNDistance">
+##  <ManSection>
+##  <Func Name="VNDistance" Arg="graph, vertex_or_list, vertex_or_list"/>
+##
+##  <Description>
+##  Function that returns the distance in a graph between two vertices or
+##  a vertex and a list of vertices or two lists of vertices.
+##  The vertices are given by their names.
+##  </Description>
+##  </ManSection>
+##  <#/GAPDoc>
+DeclareGlobalFunction( "VNDistance" );
+
 
 #E  vngrape.gd  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

@@ -71,5 +71,12 @@ InstallGlobalFunction( VNUndirectedEdges, function(g)
     return List(UndirectedEdges(g), x -> VNI2N(g,x));
 end );
 
+#############################################################################
+##
+#F  VNDistance( <g>, <x> , <y> ) . distances between vertices or vertex lists
+##
+InstallGlobalFunction( VNDistance, function(g,x,y)
+    return Distance(g,VNN2I(g,x),VNN2I(g,y));
+end );
 
 #E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here
