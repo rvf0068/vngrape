@@ -79,4 +79,12 @@ InstallGlobalFunction( VNDistance, function(g,x,y)
     return Distance(g,VNN2I(g,x),VNN2I(g,y));
 end );
 
+#############################################################################
+##
+#F  VNDistanceSet( <g>, <d> , <x> ) . names of vertices at a certain distance
+##
+InstallGlobalFunction( VNDistanceSet, function(g,d,v)
+    return VNI2N(g,DistanceSet(g,d,VNN2I(g,v)));
+end );
+
 #E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

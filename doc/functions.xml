@@ -33,6 +33,8 @@ is available, though.
 
 <#Include Label="VNDistance">
 
+<#Include Label="VNDistanceSet">
+
 </Section>
 
 

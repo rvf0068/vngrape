@@ -120,5 +120,24 @@ DeclareGlobalFunction( "VNUndirectedEdges" );
 ##  <#/GAPDoc>
 DeclareGlobalFunction( "VNDistance" );
 
+#############################################################################
+##
+#F  VNDistanceSet( <g>, <d> , <v> ) . names of vertices at a certain distance
+##
+##  <#GAPDoc Label="VNDistanceSet">
+##  <ManSection>
+##  <Func Name="VNDistanceSet" Arg="graph, d_or_d's, vertex_or_list"/>
+##
+##  <Description>
+##  Function that returns the set of vertices such that their distance to v
+##  is d (if d is a number) or in d (if d is a list of distances).
+##  The vertices of the set are given by their names.
+##  </Description>
+##  </ManSection>
+##  <#/GAPDoc>
+DeclareGlobalFunction( "VNDistanceSet" );
+
+
+
 
 #E  vngrape.gd  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here
