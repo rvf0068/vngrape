@@ -102,11 +102,11 @@ end );
 InstallGlobalFunction( VNDotGraph, function (g,f)
     local i,j;
     AppendTo(f,"graph G {\n");
-    AppendTo(f,"node [shape=circle,fixedsize=true,height=.25,width=.25,overlap=scale,splines=true];\n");
+    AppendTo(f,"node [overlap=scale,splines=true];\n");
     for i in VertexNames(g) do
         for j in VNAdjacency(g,i) do
             if VNN2I(g,i) > VNN2I(g,j) then
-                AppendTo(f,i," -- ",j,";\n");
+                AppendTo(f,"\"",PrintString(i),"\" -- \"",PrintString(j),"\";\n");
             fi;
         od;
     od;
