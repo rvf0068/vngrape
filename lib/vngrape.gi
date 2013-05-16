@@ -113,4 +113,18 @@ InstallGlobalFunction( VNDotGraph, function (g,f)
     AppendTo(f,"\n}");
 end );
 
+#############################################################################
+##
+#F  VNPNGGraph( <g> ) . produces a drawing of a graph using graphviz
+##
+InstallGlobalFunction( VNPNGGraph, function (g)
+    local tmpf1,tmpf2,dt;
+    dt:=DirectoryTemporary();
+    tmpf1:=Filename(dt,"proc_dot1.dot");
+    tmpf2:=Filename(dt,"proc_dot1.png");
+    VNDotGraph(g,tmpf1);
+    Exec("neato -Tpng -q",tmpf1," -o ",tmpf2);
+    Exec("firefox ",tmpf2);
+end );
+
 #E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

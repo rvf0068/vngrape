@@ -168,5 +168,19 @@ DeclareGlobalFunction( "VNInducedSubgraph" );
 ##  <#/GAPDoc>
 DeclareGlobalFunction( "VNDotGraph" );
 
+#############################################################################
+##
+#F  VNPNGGraph( <g> ) . produces a drawing of a graph using graphviz
+##
+##  <#GAPDoc Label="VNPNGGraph">
+##  <ManSection>
+##  <Func Name="VNPNGGraph" Arg="graph"/>
+##
+##  <Description>
+##  Function that produces a drawing of a graph using graphviz (see graphviz.org).
+##  </Description>
+##  </ManSection>
+##  <#/GAPDoc>
+DeclareGlobalFunction( "VNPNGGraph" );
 
 #E  vngrape.gd  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

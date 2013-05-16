@@ -50,6 +50,8 @@ exists. Currently it appends data.
 The resulting dot graph could be visualized at
 http://graphviz-dev.appspot.com/, for example.
 
+<#Include Label="VNPNGGraph">
+
 </Section>
 
 
