@@ -153,5 +153,20 @@ DeclareGlobalFunction( "VNDistanceSet" );
 ##  <#/GAPDoc>
 DeclareGlobalFunction( "VNInducedSubgraph" );
 
+#############################################################################
+##
+#F  VNDotGraph( <g>, <f>) . export graph to dot format
+##
+##  <#GAPDoc Label="VNDotGraph">
+##  <ManSection>
+##  <Func Name="VNDotGraph" Arg="graph, file_name"/>
+##
+##  <Description>
+##  Function that exports the graph in dot format.
+##  </Description>
+##  </ManSection>
+##  <#/GAPDoc>
+DeclareGlobalFunction( "VNDotGraph" );
+
 
 #E  vngrape.gd  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

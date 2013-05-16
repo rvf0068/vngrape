@@ -95,4 +95,22 @@ InstallGlobalFunction( VNInducedSubgraph, function(g,l)
     return InducedSubgraph(g,VNN2I(g,l));
 end );
 
+#############################################################################
+##
+#F  VNDotGraph( <g>, <f>) . export graph to dot format
+##
+InstallGlobalFunction( VNDotGraph, function (g,f)
+    local i,j;
+    AppendTo(f,"graph G {\n");
+    AppendTo(f,"node [shape=circle,fixedsize=true,height=.25,width=.25,overlap=scale,splines=true];\n");
+    for i in VertexNames(g) do
+        for j in VNAdjacency(g,i) do
+            if VNN2I(g,i) > VNN2I(g,j) then
+                AppendTo(f,i," -- ",j,";\n");
+            fi;
+        od;
+    od;
+    AppendTo(f,"\n}");
+end );
+
 #E  vngrape.gi  . . . . . . . . . . . . . . . . . . . . . . . . . . ends here

@@ -39,6 +39,15 @@ is available, though.
 
 </Section>
 
+<Section Label="new">
+<Heading>New functions</Heading>
+
+<#Include Label="VNDotGraph">
+
+There are two things to do here: do something if the external file
+exists, and quote brackets and parentheses in vertex names.
+
+</Section>
 
 
 
