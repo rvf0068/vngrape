@@ -44,8 +44,11 @@ is available, though.
 
 <#Include Label="VNDotGraph">
 
-There are two things to do here: do something if the external file
-exists, and quote brackets and parentheses in vertex names.
+We should do something if the external file
+exists. Currently it appends data.
+
+The resulting dot graph could be visualized at
+http://graphviz-dev.appspot.com/, for example.
 
 </Section>
 
