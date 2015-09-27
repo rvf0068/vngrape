@@ -4,45 +4,45 @@
 
 <!DOCTYPE Book SYSTEM "gapdoc.dtd"
    [ <!ENTITY vngrape "<Package>vngrape</Package>">
-<!ENTITY grape "<Package>GRAPE</Package>">
-<#Include Label="PKGVERSIONDATA">
+     <!ENTITY grape "<Package>GRAPE</Package>">
+     <#Include Label="PKGVERSIONDATA">
    ]>
 
 <!-- Documentation of the vngrape package. -->
 
 <Book Name="vngrape"> 
 
-<TitlePage>
-  <Title>&vngrape;</Title>
-  <Subtitle>Vertex Name Centered additions to <Package>GRAPE</Package></Subtitle>
-  <Version>Version &VERSION;</Version>
-  <Date>&RELEASEDATE;</Date>
-  <Author> Rafael Villarroel-Flores
-    <Email>rvf0068@gmail.com</Email>
-    <Homepage>http://rvfblog.wordpress.com</Homepage>
-  </Author>
+  <TitlePage>
+    <Title>&vngrape;</Title>
+    <Subtitle>Vertex Name Centered additions to <Package>GRAPE</Package></Subtitle>
+    <Version>Version &VERSION;</Version>
+    <Date>&RELEASEDATE;</Date>
+    <Author> Rafael Villarroel-Flores
+      <Email>rvf0068@gmail.com</Email>
+      <Homepage>http://rvfblog.wordpress.com</Homepage>
+    </Author>
     <Copyright> 
-    &copyright; 2013 by Rafael Villarroel-Flores<P/>
-    &vngrape; package is free software; 
-    you can redistribute it and/or modify it under the terms of the 
-    <URL Text="GNU General Public License">http://www.fsf.org/licenses/gpl.html</URL> 
-    as published by the Free Software Foundation; either version 2 of the License, 
-    or (at your option) any later version.
-  </Copyright>
-  <Acknowledgements>
-    Big thanks to Leonard H. Soicher, author of the package <Package>GRAPE</Package>.
-  </Acknowledgements>
-</TitlePage>
+      &copyright; 2013 by Rafael Villarroel-Flores<P/>
+      &vngrape; package is free software; 
+      you can redistribute it and/or modify it under the terms of the 
+      <URL Text="GNU General Public License">http://www.fsf.org/licenses/gpl.html</URL> 
+      as published by the Free Software Foundation; either version 2 of the License, 
+      or (at your option) any later version.
+    </Copyright>
+    <Acknowledgements>
+      Big thanks to Leonard H. Soicher, author of the package <Package>GRAPE</Package>.
+    </Acknowledgements>
+  </TitlePage>
 
-<TableOfContents/>
+  <TableOfContents/>
 
-<Body>
+  <Body>
 
-<#Include SYSTEM "functions.xml">
+    <#Include SYSTEM "functions.xml">
 
-</Body>
+  </Body>
 
-<TheIndex/>
+  <TheIndex/>
 
 </Book>
 

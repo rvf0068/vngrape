@@ -1,62 +1,58 @@
 <Chapter Label="vngrape">
 
-<Heading>The vngrape Package</Heading>
+  <Heading>The vngrape Package</Heading>
 
-This chapter  describes  the  &GAP;  package  &vngrape;. It builds on
-the package <Package>GRAPE</Package>.
-<P/>
+  This chapter  describes  the  &GAP;  package  &vngrape;. It builds on
+  the package <Package>GRAPE</Package>.
+  <P/>
 
-<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-<Section Label="Basic functions">
-<Heading>Basic functions</Heading>
+  <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+  <Section Label="Basic functions">
+    <Heading>Basic functions</Heading>
 
-<#Include Label="VNI2N">
+    <#Include Label="VNI2N">
 
-<#Include Label="VNN2I">
+    <#Include Label="VNN2I">
 
-</Section>
+  </Section>
 
-<Section Label="Copied from grape">
-<Heading>Copied from &grape;</Heading>
+  <Section Label="Copied from grape">
+    <Heading>Copied from &grape;</Heading>
 
-These function are similar to functions in &grape;, but accepting
-input as vertex names instead of vertex indices. Not all functionality
-is available, though.
+    These function are similar to functions in &grape;, but accepting
+    input as vertex names instead of vertex indices. Not all
+    functionality is available, though.
 
-<#Include Label="VNAddedEdgeOrbit">
+    <#Include Label="VNAddedEdgeOrbit">
 
-<#Include Label="VNAdjacency">
+    <#Include Label="VNAdjacency">
 
-<#Include Label="VNIsEdge">
+    <#Include Label="VNIsEdge">
 
-<#Include Label="VNUndirectedEdges">
+    <#Include Label="VNUndirectedEdges">
 
-<#Include Label="VNDistance">
+    <#Include Label="VNDistance">
 
-<#Include Label="VNDistanceSet">
+    <#Include Label="VNDistanceSet">
 
-<#Include Label="VNInducedSubgraph">
+    <#Include Label="VNInducedSubgraph">
 
-</Section>
+  </Section>
 
-<Section Label="new">
-<Heading>New functions</Heading>
+  <Section Label="new">
+    <Heading>New functions</Heading>
 
-<#Include Label="VNDotGraph">
+    <#Include Label="VNDotGraph">
 
-We should do something if the external file
-exists. Currently it appends data.
+    We should do something if the external file exists. Currently it
+    appends data.
 
-The resulting dot graph could be visualized at
-http://graphviz-dev.appspot.com/, for example.
+    The resulting dot graph could be visualized at
+    http://graphviz-dev.appspot.com/, for example.
 
-<#Include Label="VNPNGGraph">
+    <#Include Label="VNPNGGraph">
 
-</Section>
-
-
-
-
+  </Section>
 
 </Chapter>
 
